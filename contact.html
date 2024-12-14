@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemath</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="My.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>My Contact</h1>
+        <div class="navbarlinks">
+            <p><a  class="navbarlink" href="My Website.html">Home</a></p>
+            <p><a  class="navbarlink" href="collection.html">Collections</a></p>
+            <p><a class="navbarlink" href="">Contact</a></p>
+        </div>
+
+        <div class="navbartoggle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="sidenavbar" onclick="no()">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="sidenavbarlinks">
+            <p><a  class="sidenavbarlink" href="My Website.html">Home</a></p>
+            <p><a  class="sidenavbarlink" href="collection.html">Collections</a></p>
+            <p><a class="sidenavbarlink" href="contact.html">Contact</a></p>
+        </div>
+
+        
+    </div>
+
+    <div class="contacts">
+        <form>
+            <table>
+        <div class="contact">
+            <h2>Name : <br><INPUT type="text" class="aa" placeholder="Enter Your Name"></h2>
+        </div>
+
+        <div class="contact">
+            <h2>Email ID :  <br><INPUT type="email" class="bb" placeholder="Enter Your Email"></h2>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Number : <br><INPUT type="number" class="cc" placeholder="Enter Your Number"></h2>
+        </div>
+        <button onclick="sub()">Submit</button>
+        </table>
+        </form>
+    </div>
+
+  
+
+    
+   
+  
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footercontiner">
+            <div class="footerbox">
+                <h2 class="headingtext">Hemath</h2>
+                <p>Here the connection of my social media to get further informations </p>
+                <div class="footericon">
+                    <a href="https://www.instagram.com/hemath_massive/">
+                    <i class="fa-brands fa-instagram" style="color:#ffff" id="a"></i></a>
+                    <a href="https://www.linkedin.com/in/hemath2004/"><i class="fa-brands fa-twitter" style="color:#ffff" id="b"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082838137685"><i class="fa-brands fa-facebook" style="color:#ffff" id="c"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Hemath.com</p>
+    </div>
+
+
+    <script src="My.js"></script>
+
+</body>
+
+</html>
